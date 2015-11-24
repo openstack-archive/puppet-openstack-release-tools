@@ -4,28 +4,32 @@
 
 series:
   grizzly:
-    status: Supported
+    status: Obsolete
     summary: This is the "grizzly" series.
 
   havana:
-    status: Supported
+    status: Obsolete
     summary: This is the "havana" series.
 
   icehouse:
-    status: Supported
+    status: Obsolete
     summary: This is the "icehouse" series.
 
   juno:
-    status: Current Stable Release
+    status: Supported
     summary: This is the "juno" series.
 
   kilo:
-    status: Current Stable Release
+    status: Supported
     summary: This is the "kilo" series.
 
   liberty:
-    status: Active Development
+    status: Current Stable Release
     summary: This is the "liberty" series.
+
+  mitaka:
+    status: Active Development
+    summary: This is the "mitaka" series.
 
   future:
     status: Future
@@ -39,29 +43,36 @@ series:
 projects:
   puppet-aodh:
     summary: Puppet module for Aodh
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-barbican:
     summary: Puppet module for Barbican
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
-      liberty:
+      mitaka:
         milestones:
-          7.0.0:
+          8.0.0:
             is_active: true
       future:
 
   puppet-ceilometer:
     summary: Puppet module for Ceilometer
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -122,12 +133,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-cinder:
     summary: Puppet module for Cinder
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -186,12 +204,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-designate:
     summary: Puppet module for Designate
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       icehouse:
@@ -209,12 +234,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-glance:
     summary: Puppet module for Glance
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -269,23 +301,37 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-gnocchi:
     summary: Puppet module for Gnocchi
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-heat:
     summary: Puppet module for Heat
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -332,12 +378,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-horizon:
     summary: Puppet module for Horizon
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -394,12 +447,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-ironic:
     summary: Puppet module for Ironic
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       icehouse:
@@ -417,12 +477,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-keystone:
     summary: Puppet module for Keystone
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -482,12 +549,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-24
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-manila:
     summary: Puppet module for Manila
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       kilo:
@@ -503,34 +577,48 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-mistral:
     summary: Puppet module for Mistral
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
-      liberty:
+      mitaka:
         milestones:
-          7.0.0:
+          4.0.0:
             is_active: true
       future:
 
   puppet-murano:
     summary: Puppet module for Murano
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-neutron:
     summary: Puppet module for Neutron
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -588,12 +676,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-nova:
     summary: Puppet module for Nova
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -652,12 +747,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-openstacklib:
     summary: Puppet module for OpenStack libraries
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       juno:
@@ -681,12 +783,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-24
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-openstack-extras:
     summary: Helper classes that utilize the core Puppet Openstack modules
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       juno:
@@ -707,12 +816,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-sahara:
     summary: Puppet module for Sahara
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       kilo:
@@ -728,12 +844,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-swift:
     summary: Puppet module for Swift
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -786,12 +909,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-tempest:
     summary: Puppet module for Tempest
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -822,12 +952,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-trove:
     summary: Puppet module for Trove
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       kilo:
@@ -843,12 +980,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-tuskar:
     summary: Puppet module for Tuskar
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       kilo:
@@ -861,12 +1005,19 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
   puppet-vswitch:
     summary: Puppet module for Vswitch
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       grizzly:
@@ -903,16 +1054,23 @@ projects:
       liberty:
         milestones:
           3.0.0:
+            date_released: 2015-11-25
+            is_active: true
+          3.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          4.0.0:
             is_active: true
       future:
 
   puppet-zaqar:
     summary: Puppet module for Zaqar
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
-      liberty:
+      mitaka:
         milestones:
-          7.0.0:
+          4.0.0:
             is_active: true
       future:
