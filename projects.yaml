@@ -4,26 +4,30 @@
 
 series:
   grizzly:
-    status: Supported
+    status: Obsolete
     summary: This is the "grizzly" series.
 
   havana:
-    status: Supported
+    status: Obsolete
     summary: This is the "havana" series.
 
   icehouse:
-    status: Supported
+    status: Obsolete
     summary: This is the "icehouse" series.
 
   juno:
-    status: Current Stable Release
+    status: Supported
     summary: This is the "juno" series.
 
   kilo:
-    status: Current Stable Release
+    status: Supported
     summary: This is the "kilo" series.
 
   liberty:
+    status: Current Stable Release
+    summary: This is the "liberty" series.
+
+  mitaka:
     status: Active Development
     summary: This is the "liberty" series.
 
@@ -422,7 +426,7 @@ projects:
 
   puppet-keystone:
     summary: Puppet module for Keystone
-    development_focus: liberty
+    development_focus: keystone
 
     series:
       grizzly:
@@ -482,6 +486,13 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-24
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
@@ -657,7 +668,7 @@ projects:
 
   puppet-openstacklib:
     summary: Puppet module for OpenStack libraries
-    development_focus: liberty
+    development_focus: mitaka
 
     series:
       juno:
@@ -681,6 +692,13 @@ projects:
       liberty:
         milestones:
           7.0.0:
+            date_released: 2015-11-24
+            is_active: true
+          7.1.0:
+            is_active: true
+      mitaka:
+        milestones:
+          8.0.0:
             is_active: true
       future:
 
