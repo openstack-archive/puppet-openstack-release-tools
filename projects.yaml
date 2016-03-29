@@ -956,7 +956,7 @@ projects:
             is_active: true
       future:
 
-  puppet-openstack_spec_helper:
+  puppet-openstack-spec-helper:
     summary: Library gem used by Puppet OpenStack modules.
     development_focus: newton
 
